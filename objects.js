@@ -4,3 +4,5 @@ function updatePlaylist(playlist, artistName, songTitle) {
   playlist.artistName = 'songTitle';
   return playlist;
 }
+
+console.log(updatePlaylist(butt, butt, butt))

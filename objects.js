@@ -5,4 +5,10 @@ function updatePlaylist(obj, artistName, songTitle) {
   return obj;
 }
 
-console.log(updatePlaylist(playlist, 'butt', 'butt'))
+
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist.artistName
+  return playlist
+}
+
+console.log(removeFromPlaylist(playlist, 'butt', 'butt'))

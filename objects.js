@@ -6,7 +6,7 @@ function updatePlaylist(obj, artistName, songTitle) {
 }
 
 function removeFromPlaylist(obj, artistName) {
-  artistNameString = '${artistName}';
+  artistNameString = ''${artistName}'';
   delete obj.artistNameString;
   return obj;
 }

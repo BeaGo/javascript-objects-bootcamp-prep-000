@@ -1,5 +1,4 @@
 var playlist = { 'Britney Spears': 'Oops!...I Did It Again' }
-var artistName = 
 
 function updatePlaylist(obj, artistName, songTitle) {
   obj[artistName] = songTitle;

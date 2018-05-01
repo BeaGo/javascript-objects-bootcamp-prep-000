@@ -11,4 +11,4 @@ function removeFromPlaylist(playlist, artistName) {
   return playlist
 }
 
-console.log(removeFromPlaylist(playlist, 'butt', 'butt'))
+console.log(removeFromPlaylist(playlist, 'Britney Spears'))

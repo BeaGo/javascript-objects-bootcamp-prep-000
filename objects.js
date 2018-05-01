@@ -6,8 +6,7 @@ function updatePlaylist(obj, artistName, songTitle) {
 }
 
 function removeFromPlaylist(playlist, artistName) {
-  var poop = [artistName]
- delete playlist.poop
+ delete playlist.(artistName)
  return playlist
 }
 

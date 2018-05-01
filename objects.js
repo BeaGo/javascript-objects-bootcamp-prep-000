@@ -5,4 +5,4 @@ function updatePlaylist(playlist, artistName, songTitle) {
   return playlist;
 }
 
-console.log(updatePlaylist(butt, butt, butt))
+console.log(updatePlaylist('butt', 'butt', 'butt'))

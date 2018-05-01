@@ -7,7 +7,7 @@ function updatePlaylist(obj, artistName, songTitle) {
 
 function removeFromPlaylist(obj, artistName) {
   delete obj.artistName;
-  return obj
+  return obj;
 }
 
 console.log(removeFromPlaylist(playlist, 'Britney Spears'))
